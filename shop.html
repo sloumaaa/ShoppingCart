@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>shop cart</title>
+    <link rel="stylesheet" href="shop.css">
+    <script src="shop.js"></script>
+</head>
+
+<body>
+    <div class="englobe">
+        <div class="prixtot">
+            <p>Shopping Bag total:</p><span id="ta">0</span><span id="tz">$</span>
+        </div>
+        <!-- Produit n1 -->
+        <div class="vetement">
+            <div class="image">
+                <img src="debardeur.jpg" id='im1' width="225px" height="125px">
+            </div>
+            <div class="detail">
+                <p>Debardeur de plage pour hommes</p>
+                <p>Vert</p>
+            </div>
+            <div class="quantite">
+                <span class="espaceadd">
+                    <button class="designbutt" onclick="addition1()" type="button" name="button"><img src="add.jpg"
+                            width="20px" height="20px" />
+                    </button>
+                </span>
+                <span class="espacesous">
+                    <input class="aj-sup" style="width:15px" type="text" name="name" id='PremierArticle' value="1">
+                </span>
+                <span class="espacetot">
+                    <button class="designbutt" onclick="soustraction1()" type="button" name="button"><img src="sss.png"
+                            width="20px" height="20px" />
+                    </button>
+                </span>
+                <span class="dola">$</span><span class="total-prix">10</span>
+            </div>
+        </div>
+        <!-- Produit n2-->
+        <div class="vetement">
+            <div class="image">
+                <img src="maillot.jpg" style="margin-top: 1px" id='im2' width="225px" height="125px">
+            </div>
+            <div class="detail">
+                <p>Maillot de bain pour hommes</p>
+                <p>Bleu et Rouge</p>
+            </div>
+            <div class="quantite">
+                <span class="espaceadd">
+                    <button class="designbutt" onclick="addition2()" type="button" name="button"><img src="add.jpg"
+                            width="20px" height="20px" />
+                    </button>
+                </span>
+                <span class="espacesous">
+                    <input class="aj-sup" style="width:15px" type="text" name="name" id='deuxiemeArticle' value="1">
+                </span>
+                <span class="espacetot">
+                    <button class="designbutt" onclick="soustraction2()" type="button" name="button"><img src="sss.png"
+                            width="20px" height="20px" />
+                    </button>
+                </span>
+                <span class="dola">$</span><span class="total-prix">20</span>
+            </div>
+        </div>
+        <!-- Produit n3-->
+        <div class="vetement">
+            <div class="image">
+                <img src="chauss.jpg" width="225px" height="125px">
+            </div>
+            <div class="detail" style="width: 230px">
+                <p>chaussures de plage pour hommes</p>
+                <p>Gris et Rouge</p>
+            </div>
+            <div class="quantite">
+                <span class="espaceadd">
+                    <button class="designbutt" onclick="addition3()" type="button" name="button"><img src="add.jpg"
+                            width="20px" height="20px" />
+                    </button>
+                </span>
+                <span class="espacesous">
+                    <input class="aj-sup" style="width:15px" type="text" name="name" id='troisiemeArticle' value="1">
+                </span>
+                <span class="espacetot">
+                    <button class="designbutt" onclick="soustraction3()" type="button" name="button"><img src="sss.png"
+                            width="20px" height="20px" />
+                    </button>
+                </span>
+                <span class="dola">$</span><span class="total-prix">7</span>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
